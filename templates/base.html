@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" href="{% static 'styles.css' %}">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.min.js"
+		integrity="sha512-BKbSR+cfyxLdMAsE0naLReFSLg8/pjbgfxHh/k/kUC82Hy7r6HtR5hLhobaln2gcTvzkyyehrdREdjpsQwy2Jw=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
+		integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
+		crossorigin="anonymous"></script>
+	<title>TODO App</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-10 mx-auto mt-5">
+				
+				{% block content %}
+					
+				{% endblock content %}
+					
+			</div>
+		</div>
+	</div>
+	
+	
+	<script src="{% static 'main.js' %}"></script>
+</body>
+</html>
