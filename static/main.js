@@ -69,11 +69,12 @@ var app = new Vue({
 					vm.tasks.splice(index, 1);
 				})
 		}
+		
 	}
 })
 
 
 var day = new Date();
 var month = day.toLocaleString('default', { month: 'short'})
-console.log(month)
+// console.log(month)
 document.getElementById('date').innerHTML = month + ' ' + day.getDate() + ', ' + day.getFullYear();
