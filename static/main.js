@@ -15,6 +15,7 @@ function sendRequest(url, method, data) {
 var app = new Vue({
 	el: '#app',
 	data: {
+		draggingItem: null,
 		task: '',
 		tasks: [
 			{title:'one'},

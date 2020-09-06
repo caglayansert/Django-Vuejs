@@ -30,6 +30,7 @@
 				@click='completeTask(task.id, index)'
 				:class="{'completed':task.completed}"
 				v-if='!task.completed'
+				:key='task.id'
 				>
 			<div class="card-body">
 				{{task.title}}

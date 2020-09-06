@@ -7,4 +7,5 @@ urlpatterns = [
 	path('<str:id>/delete/', TaskDeleteView.as_view()),
 
 
+
 ]

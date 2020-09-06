@@ -1,13 +1,13 @@
 .completed {
 	text-decoration: line-through;
-	text-decoration-color: red;
+	text-decoration-color: green;
 	text-decoration-style: double;
-	border-left-color: red !important;
+	border-left-color: green !important;
 	border-left-width: 0.2rem;
 }
 
 .card {
-	border-left-color: green;
+	border-left-color: orange;
 	border-left-width: 0.2rem;
 }
 
